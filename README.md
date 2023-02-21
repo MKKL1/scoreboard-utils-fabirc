@@ -1,4 +1,4 @@
-# scoreboard-utils-fabirc
+# scoreboard-utils-fabric
 It's fabric only, server-sided mod.
 ## Usage
 * `/scoreupdate <objective> [<ignore-zeros>]`

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "betterbbs",
+  "version": "${version}",
+
+  "name": "BetterScoreboard",
+  "description": "Mod aiming to provide quality of life utilities for small servers that use scoreboards",
+  "authors": [
+    "github.com/mkkl1"
+  ],
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.mkkl.betterbbs.Betterbbs"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": "~1.19.3",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
